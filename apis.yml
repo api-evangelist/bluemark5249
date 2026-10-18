@@ -1,23 +1,66 @@
 aid: bluemark5249
+
 name: Bluemark5249
-description: 'Bluemark5249 is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Bluemark5249 is listed on EquityZen as a private company offering pre‑IPO stock investment opportunities. The listing provides basic corporate information, including its association with Morgan Stanley through EquityZen Securities, and outlines the process for accredited investors to buy or sell shares. While no dedicated corporate website is publicly identified, the EquityZen profile details the company’s business model, risk factors, and contact avenues via the marketplace platform.'
+
 url: https://raw.githubusercontent.com/api-evangelist/bluemark5249/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-29 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-29'
+
 modified: '2026-09-29'
+
 tags:
 - Company
-apis: []
+- Finance
+- Private Equity
+- Pre-IPO
+- Marketplace
+tags_raw:
+- Company
+- Finance
+- Private-Equity
+- Pre-IPO
+- Marketplace
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/bluemark5249-hosts.yml
+- type: Vendors
+  url: vendors/bluemark5249-vendors.yml
+- type: DomainSecurity
+  url: security/bluemark5249-domain-security.yml
 - type: Website
   url: https://equityzen.com/company/bluemark5249
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: The company is listed on EquityZen with no public website or API documentation.
+  evidence:
+    - url: https://equityzen.com/company/bluemark5249
+      status: 403
+  checked: '2026-09-29'
+x-enrichment:
+  date: '2026-09-29'
+  status: enriched
+  artifacts_added: 3
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
