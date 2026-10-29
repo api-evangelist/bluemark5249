@@ -1,4 +1,4 @@
-# Bluemark5249
+# bluemark5249
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,16 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bluemark5249 is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/bluemark5249
+> **Retired — merged into [EquityZen](https://apis.io/providers/equityzen/).** The two records described the same company, and that one is canonical. Nothing in this repository is maintained any more.
+
+**Why:** EquityZen listing slug (equityzen.com/company/bluemark5249) harvested as a company; the description is the venue's listing text and no company site is resolvable. roadmap#933, approved by Kin 2026-10-18.
+
+**Retired:** 2026-10-18
+
+## Where to go now
+
+The current profile, APIs, artifacts and rating for EquityZen are on APIs.io at **[apis.io/providers/equityzen/](https://apis.io/providers/equityzen/)**.
+
+## Open an issue
+
+Issues about EquityZen belong on the canonical profile: [open one on api-evangelist/equityzen](https://github.com/api-evangelist/equityzen/issues/new). If you think this merge was a mistake — these were really two companies — say so there or email [info@apievangelist.com](mailto:info@apievangelist.com).
